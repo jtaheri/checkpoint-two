@@ -98,7 +98,7 @@ body {
 
 .learnMore a:hover {
   font-weight: 600;
-  transition-duration: 0.3s;
+  /* transition-duration: 0.3s; */
 }
 
 .pageTwo {
@@ -275,4 +275,83 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .pageTwo {
+    display: grid;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+  }
+
+  .past {
+    grid-area: a;
+  }
+
+  .present {
+    grid-area: b;
+  }
+
+  .future {
+    grid-area: c;
+  }
+
+  .skills {
+    grid-area: d;
+  }
+
+  .education {
+    grid-area: e;
+  }
+
+  .LI-profile-badge {
+    grid-area: f;
+    margin-bottom: 30px;
+    justify-self: center;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .pageTwo {
+    display: grid;
+    grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+  }
+
+  .past {
+    grid-area: a;
+  }
+
+  .present {
+    grid-area: b;
+  }
+
+  .future {
+    grid-area: c;
+  }
+
+  .skills {
+    grid-area: d;
+  }
+
+  .education {
+    grid-area: e;
+  }
+
+  .LI-profile-badge {
+    grid-area: f;
+    margin-bottom: 30px;
+    justify-self: center;
+  }
 }
