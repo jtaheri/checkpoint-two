@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+.landingPage {
+  height: 100%;
+  min-width: 100%;
+  background-image: url(https://i.imgur.com/rRvSfXV.jpg);
+  background-size: cover;
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
+}
+
+.landingPage div {
+  /* border: 3px solid black; */
+}
+
+/* .layer {
+  background-color: rgba(132,138,140,0.5);
+  height: 100%;
+  min-width: 100%;
+  position: fixed;
+} */
+
+.greeting {
+  display: grid;
+  justify-self: center;
+  text-align: center;
+  grid-area: d;
+  text-shadow: 3px 3px 5px #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+  font-weight: 700;
+  color: white;
+}
+
+.hireMe {
+  grid-area: e;
+  justify-self: center;
+  align-self: center;
+}
+
+.hireMe button {
+  width: 170px;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 130%;
+  color: white;
+  background-color: rgba(0,0,0,0)
+}
+
+.hireMe button:hover {
+  color: black;
+  background-color: white;
+}
+
+.learnMore {
+  grid-area: f;
+  justify-self: center;
+  align-self: end;
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.learnMore a{
+  color: white;
+}
+
+/* .learnMore a::after {
+  color: white;
+} */
+
+
+.pageTwo {
+  height: 90%;
+  display: grid;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d";
+  margin: 10%;
+  /* should this be padding or margin? */
+  border: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headline {
+  grid-area: a;
+  display: grid;
+  grid-template-areas:
+  "a b";
+  justify-content: space-between;
+}
+
+.headlineLeft {
+  grid-area: a;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.headlineRight {
+  grid-area: b;
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c c"
+    "d d"
+}
+
+.resume {
+  grid-area: a;
+}
+
+.linkedIn {
+  grid-area: b;
+  justify-self: end;
+}
+
+.email {
+  grid-area: c;
+}
+
+.phone {
+  grid-area: d;
+}
+
+.headshot {
+  grid-area: b;
+  justify-self: center;
+}
+
+.headshot img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.skillsAndEducation {
+  grid-area: c;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+}
+
+.skills {
+  border: 2px solid red;
+}
+
+.education {
+
+}
+
+.biography {
+  display: grid;
+  grid-template-areas:
+    "a b c";
+}
+
+.past {
+  grid-area: a;
+}
+
+.present {
+  grid-area: b;
+}
+
+.future {
+  grid-area: c;
+}
