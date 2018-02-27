@@ -333,16 +333,32 @@ body {
     grid-area: a;
   }
 
+  .pastHeader{
+    text-align: center;
+  }
+
   .present {
     grid-area: b;
+  }
+
+  .presentHeader{
+    text-align: center;
   }
 
   .future {
     grid-area: c;
   }
 
+  .futureHeader{
+    text-align: center;
+  }
+
   .skills {
     grid-area: d;
+  }
+
+  .skeelz {
+    justify-self: left;
   }
 
   .education {
