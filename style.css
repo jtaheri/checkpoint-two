@@ -92,14 +92,14 @@ body {
 
 /****** this doesn't work. trying to slow scroll *****/
 
-/* #scroll {
+ {
   transition-duration: 2s;
-} */
+}
 
 .learnMore a{
   color: white;
   text-decoration: none;
-  transition-duration: 0.3s;
+  transition-duration: 3s;
 }
 
 .learnMore a:hover {
