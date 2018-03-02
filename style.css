@@ -72,7 +72,7 @@ body {
 }
 
 .hireMe a:hover, a:active {
-    background-color: rgba(0,70,0,.9);
+    background-color: rgb(249,216,120);
     width: 110px;
     transition-duration: 0.3s;
     text-align: center;
@@ -261,7 +261,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
-
+  padding: 10px;
 }
 
 .skeelz {
